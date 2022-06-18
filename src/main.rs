@@ -28,8 +28,6 @@ fn initialize_sdl() -> SDL
         .unwrap();
     }
 
-    sdl.set_relative_mouse_mode(true);
-
     return sdl;
 }
 
